@@ -19,7 +19,7 @@ class CalendarSync:
         )
 
         # Notion connection
-        self.notion = Client(auth=os.getenv("NOTION_TOKEN"))
+        self.notion = Client(auth=os.getenv("NOTION_API_KEY"))
         self.database_id = os.getenv("NOTION_DATABASE_ID")
 
         # Initialize cursor
