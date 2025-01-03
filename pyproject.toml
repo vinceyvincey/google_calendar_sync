@@ -1,0 +1,14 @@
+[project]
+name = "google-calendar-sync"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.6",
+    "mysql-connector-python>=9.1.0",
+    "notion-client>=2.3.0",
+    "python-dotenv>=1.0.1",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.34.0",
+]

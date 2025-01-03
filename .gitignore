@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+AppScriptCode.gs
+.env
+.python-version
+generate_signature.py
+generate_secret.py
